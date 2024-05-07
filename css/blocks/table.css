@@ -1,0 +1,9 @@
+.wp-block-table.is-style-dark-stripes table thead, .wp-block-table.is-style-dark-stripes table tfoot {
+	border-color: var(--wp--preset--color--dark);
+}
+.wp-block-table.is-style-dark-stripes table tbody tr:nth-child(odd) {
+	background-color: var(--wp--preset--color--dark);
+}
+.wp-block-table.is-style-dark-stripes th, .wp-block-table.is-style-dark-stripes td {
+	border-color: var(--wp--preset--color--dark);
+}
