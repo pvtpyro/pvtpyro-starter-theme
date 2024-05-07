@@ -51,13 +51,13 @@ add_action( 'after_setup_theme', 'pp_custom_block_styles_css' );
 // only load block assets if the block is being used
 add_filter( 'should_load_separate_core_block_assets', '__return_true' );
 
-function dandi_theme_menus()
+function pp_theme_menus()
 {
 	register_nav_menus(
 		array(
 			//duplicate line below and rename for more menus. IE footer, sidebar
-			'primary' => __('Primary Navigation', 'dandi')
+			'primary' => __('Primary Navigation', 'pp')
 		)
 	);
 }
-add_action('init', 'dandi_theme_menus');
+add_action('init', 'pp_theme_menus');
